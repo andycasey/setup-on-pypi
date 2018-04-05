@@ -12,5 +12,6 @@ Follow these steps:
 
 4. ``conda install twine``
 
-5. ``python setup.py publish``
+5. ``python setup.py sdist``
 
+6. ``twine upload dist/*``
