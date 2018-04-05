@@ -8,10 +8,12 @@ Follow these steps:
 
 2. ``cd setup-on-pypi/``
 
-3. Change `YOUR_PACKAGE_NAME` in `setup.py`
+3. If you don't have one already: ``cp .pypirc ~/.pypirc`` and update the `~/.pypirc` file with your PyPi username and password.
 
-4. ``conda install twine``
+4. Change `YOUR_PACKAGE_NAME` in `setup.py`
 
-5. ``python setup.py sdist``
+5. ``conda install twine``
 
-6. ``twine upload dist/*``
+6. ``python setup.py sdist``
+
+7. ``twine upload dist/*``
